@@ -7,5 +7,5 @@ resource "azurerm_log_analytics_workspace" "law_avd" {
   retention_in_days   = 30
   tags = {
     infra_avd = var.prefix
-  }
+  }  
 }
